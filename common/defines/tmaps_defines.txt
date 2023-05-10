@@ -1,0 +1,10 @@
+NGameplay = {
+	ASCENSION_PERKS_SLOTS = 8
+	TRADITION_CATEGORIES_MAX = 8 #This sets the max number of selectable traditions categories, it MUST be edited to add more selectable tradition slots
+}
+
+NAI = {
+	#This needs to be increased by 7 for each tradition slot you have. If you dont do this the AI wont take an 8th tradition, instead spending its unity on edicts.
+	# 7 times "Number of Tradition Slots" = "What this number should be"
+	NUM_TRADITIONS_FOR_EDICTS = 56	# How many traditions does the AI want before spending Unity on edicts (there are 49 in total in the base game counting adoption & completion effects)
+}
