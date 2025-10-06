@@ -20,14 +20,14 @@ guiTypes = {
 	# ASCENSION PERKS ENTRY POSITIONS
 	################################################################
 
-	positionType = { name = "ap_0"	position = { x = 0 y = 8 } }
-	positionType = { name = "ap_1"	position = { x = 58 y = 8 } }
-	positionType = { name = "ap_2"	position = { x = 116 y = 8 } }
-	positionType = { name = "ap_3"	position = { x = 174 y = 8 } }
-	positionType = { name = "ap_4"	position = { x = 232 y = 8 } }
-	positionType = { name = "ap_5"	position = { x = 290 y = 8 } }
-	positionType = { name = "ap_6"	position = { x = 348 y = 8 } }
-	positionType = { name = "ap_7"	position = { x = 406 y = 8 } }
+	positionType = { name = "ap_0"	position = { x = 0 y = 30 } }
+	positionType = { name = "ap_1"	position = { x = 58 y = 30 } }
+	positionType = { name = "ap_2"	position = { x = 116 y = 30 } }
+	positionType = { name = "ap_3"	position = { x = 174 y = 30 } }
+	positionType = { name = "ap_4"	position = { x = 232 y = 30 } }
+	positionType = { name = "ap_5"	position = { x = 290 y = 30 } }
+	positionType = { name = "ap_6"	position = { x = 348 y = 30 } }
+	positionType = { name = "ap_7"	position = { x = 406 y = 30 } }
 
 	containerWindowType = {
 		name = "traditions_ascension_perk_entry"
@@ -138,7 +138,7 @@ guiTypes = {
 		########################
 		# TABS
 		########################
-		@tabHeight = 700
+		@tabHeight = 740
 
 		buttonType = {
 			name = "tab_traditions"
@@ -255,14 +255,14 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "ascension_perks_label"
 					font = "malgun_goth_24"
-					position = { x = 10 y = 6 }
+					position = { x = 10 y = 10 }
 					text = "ASCENSION_PERKS"
 				}
 
 				containerWindowType = {
 					name = "tradition_box"
 					size = { width = 450 height = 60 }
-					position = { x = 35 y = 40 }
+					position = { x = 35 y = 46 }
 				}
 			}
 		}
